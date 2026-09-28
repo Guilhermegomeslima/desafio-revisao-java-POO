@@ -8,4 +8,9 @@ public class ProdutoPerecivel extends Produto{
       this.dataValidade = dataValidade;
       this.temperaturaArmazenamento = temperaturaArmazenamento;
    }
+   
+   @Override
+   public double calcularDesconto(){
+      return getPreco() * 0.20;
+   }
 }
