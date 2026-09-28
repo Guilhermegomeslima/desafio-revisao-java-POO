@@ -11,6 +11,9 @@ public class Produto{
    LIMPEZA
   }
   
+  public Produto(){
+  }
+  
   public Produto(String nome, int codigo, double preco, CategoriaProduto categoria){
    this.nome = nome;
    this.codigo = codigo;
