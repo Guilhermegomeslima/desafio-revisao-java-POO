@@ -33,4 +33,11 @@ public class ProdutoPerecivel extends Produto{
    public double calcularDesconto(){
       return getPreco() * 0.20;
    }
+   
+   @Override
+   public void obterDetalhes(){
+      super.obterDetalhes();
+      System.out.println("Data de validade: " + dataValidade);
+      System.out.println("Temperatura de armazenamento: " + temperaturaArmazenamento);
+   }
 }

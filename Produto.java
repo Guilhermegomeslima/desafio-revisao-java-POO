@@ -56,4 +56,11 @@ public class Produto{
   public double calcularDesconto(){
    return this.preco * 0.10;
   }
+  
+  public void obterDetalhes(){
+   System.out.println("Nome: " + nome);
+   System.out.println("Codigo: " + codigo);
+   System.out.println("preco: " + preco);
+   System.out.println("categoria: " + categoria);
+  }
 }
