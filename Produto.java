@@ -49,4 +49,8 @@ public class Produto{
   public void setCategoria(CategoriaProduto categoria){
    this.categoria = categoria;
   }
+  
+  public double calcularDesconto(){
+   return this.preco * 0.10;
+  }
 }
