@@ -18,4 +18,35 @@ public class Produto{
    this.categoria = categoria;
   }
   
+  public String getNome(){
+   return nome;
+  }
+  
+  public void setNome(String nome){
+   this.nome = nome;
+  }
+  
+  public int getCodigo(){
+   return codigo;
+  }
+  
+  public void setCodigo(int codigo){
+   this.codigo = codigo;
+  }
+
+  public double getPreco(){
+   return preco;
+  }
+  
+  public void setPreco(double preco){
+   this.preco = preco;
+  }
+  
+  public CategoriaProduto getCategoria(){
+   return categoria;
+  }
+  
+  public void setCategoria(CategoriaProduto categoria){
+   this.categoria = categoria;
+  }
 }
